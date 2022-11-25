@@ -1,0 +1,5 @@
+NCES School District and Zip Code Crosswalk
+This file provides a crosswalk of school district identifiers and location information, including: district name, state name, NCES district ID, state FIPS, county FIPS, county name, zip code (location), zip code (mailing).
+
+
+link:https://www.covidschooldatahub.com/data-resources
