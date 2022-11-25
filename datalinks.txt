@@ -1,0 +1,47 @@
+
+Student Scores --> not available
+
+state level covid data --> https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+
+census bureau population --> available through any website
+
+covid - 19 hub --> state/school wise learning methods
+
+
+____________________________________________________________
+
+Data Gathering:
+
+1. We have state/district/school level data for couple of years. In each data set we have percentage of student falling in
+	each level 1-5. Also we have mean scale score. The data is for various grades 3 to 8, english and mathematics (further 
+	categorizaiton can be explored) 
+
+2. We have data for colarado, florida and NY. We will keep the scope limited to these three states only. 
+
+3. Above three data sets will be supplemented by CCD data, other demographics, economic and social indicators 
+	to make our data rich. The data sources that we can use CCD, census data, covid19-data, mode-of-learning etc.
+
+Data Pre-processing:
+
+3. The pre-processing will be done for each data sets of each three states--> this will take a lot of time as 
+	data tables, naming conventions, aggregation level of each state is different. --> one coherent 
+	data frame will be formed for the analysis.
+
+4. The supplementary data sets will be joined with the above table to enrich it. 
+
+Modeling:
+
+1. Mean Scale Score for each school/district will be used as a metric
+
+2. Using the data of 2017/2018/2019 --> the growth of 2020/21/22 will be predicted (exact years will be identified
+	once the data is cleaned)
+	
+	2.1. For this growth model will be used as identified int the harvard paper
+	2.2. We can also think of applying some other sophisticated ML algos like ANN, CNN. 
+
+3. Using expected growth and real growth --> the academic loss with be calculated. 
+
+4. Time to recover academic loss --> For this some metric would be calculated like avg. growth points per year.
+	Since there would be deficit in academic acheivement, it would be calculated how much more years/time
+	required to achieve same level of growth in the coming years. 
+
